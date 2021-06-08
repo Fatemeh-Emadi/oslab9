@@ -44,4 +44,40 @@ GUID  و  UID
 
 میتوانیم شناسه کاربر و گروه را ببینیم
 
+3)creating user oslab and set password 25
+
+اول با استفاده از دستور یوزر اد کاربر مورد نظر را ایجاد میکنیم
+سپس با دستور مربوط به پسورد  پسورد ۲۵ را برای ان ست میکنیم 
+
+sudo useradd oslab
+sudo passwd 25
+
+4)
+با دستور گروپ اد گروه های سجاد و یونی را ایجاد میکنیم سپس با استفاده
+از دستور اد یوزر به انها کاربر مورد نظر را به هر دو گروه اضافه میکنیم 
+
+sudo groupadd sajjad
+sudo groupadd uni
+sudo adduser oslab sajjad
+sudo adduser oslab uni
+sudo gpasswd -A oslab sajjad
+
+gpasswd -A :
+کاربر مورد نظر را ادمین میکند
+
+5)
+ابتدا با دستور یوزر اد کاربر را ایجاد میکنیم سپس آن را عضو گروه سجاد 
+میکنیم  
+
+sudo useradd os2
+
+sudo gpasswd -a os2 sajjad
+
+این دستور کاربر را به گروه اد میکند
+
+sudo userdel os2
+
+این دستور کاربر را پاک می‌کند 
+
+
 
