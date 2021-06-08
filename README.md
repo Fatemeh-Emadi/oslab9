@@ -50,6 +50,7 @@ GUID  و  UID
 سپس با دستور مربوط به پسورد  پسورد ۲۵ را برای ان ست میکنیم 
 
 sudo useradd oslab
+
 sudo passwd 25
 
 4)
@@ -57,9 +58,13 @@ sudo passwd 25
 از دستور اد یوزر به انها کاربر مورد نظر را به هر دو گروه اضافه میکنیم 
 
 sudo groupadd sajjad
+
 sudo groupadd uni
+
 sudo adduser oslab sajjad
+
 sudo adduser oslab uni
+
 sudo gpasswd -A oslab sajjad
 
 gpasswd -A :
