@@ -28,3 +28,13 @@ gpasswd:
 
 -d:
 ریموو کردن کاربر از گروه 
+
+2)name UID GID
+
+cat /etc/ passwd
+
+اطلاعات کامل کاربری در فایل 
+etc/passwd 
+ذخیره می‌شوند 
+
+
