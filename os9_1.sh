@@ -1,0 +1,2 @@
+chown --help
+gpasswd --help
