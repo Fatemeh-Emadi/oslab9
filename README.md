@@ -34,7 +34,6 @@ gpasswd:
 cat /etc/ passwd
 
 اطلاعات کامل کاربری در فایل 
-etc/passwd 
-ذخیره می‌شوند 
+etc/passwd ذخیره می‌شوند
 
 
